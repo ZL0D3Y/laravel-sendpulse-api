@@ -18,9 +18,9 @@ SENDPULSE_API_USER_ID=<your api user id>
 SENDPULSE_API_SECRET=<your api secret>
 ```
 
-For Laravel >= 5.5 - you are ready to go
+For Laravel >= 5.5 you are ready to go
 
-For laravel < 5.5  you need to register service provider
+For laravel < 5.5 you need to register service provider
 
 */configs/app.php*
 
