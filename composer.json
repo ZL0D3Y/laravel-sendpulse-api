@@ -34,8 +34,5 @@
                 "\\Zlodey\\Sendpulse\\SendpulseServiceProvider"
             ]
         }
-    },
-    "config": {
-        "preferred-install": "dist"
     }
 }
