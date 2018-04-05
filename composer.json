@@ -1,0 +1,35 @@
+{
+    "name": "zlodey/laravel-sendpulse-api",
+    "description": "SendPulse service provider for laravel",
+    "keywords": [
+        "laravel",
+        "sendpulse",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://github.com/ZL0D3Y/laravel-sendpulse-api.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Lazarenko",
+            "email": "azl0d3y@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "sendpulse/rest-api": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zlodey\\Sendpulse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Zlodey\\Sendpulse\\SendpulseServiceProvider"
+            ]
+        }
+    }
+}
