@@ -1,6 +1,6 @@
 # Laravel - Sendpulse Service Provider
 
-###Install With Composer:
+##Install With Composer:
 ```sh
 composer require zlodey/laravel-sendpulse-api 1.*
 ```
