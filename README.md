@@ -1,6 +1,6 @@
 # Laravel - Sendpulse Service Provider
 
-##Install With Composer:
+**Install With Composer**:
 ```sh
 composer require zlodey/laravel-sendpulse-api 1.*
 ```
@@ -41,7 +41,7 @@ For laravel < 5.5  you need to register service provider
     ],
 ```
 
-##Usage
+**Usage**
 ``` php
 app('Sendpulse')->listAddressBooks();
 app('Sendpulse')->listSenders();
