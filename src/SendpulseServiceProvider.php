@@ -1,6 +1,6 @@
 <?php
 
-namespace iHubGrid\FrameIntegrations;
+namespace Zlodey\Sendpulse;
 
 
 use Illuminate\Support\ServiceProvider;
