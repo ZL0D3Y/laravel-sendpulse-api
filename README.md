@@ -1,7 +1,7 @@
 [![Downloads](https://img.shields.io/packagist/dt/zlodey/laravel-sendpulse-api.svg)](https://packagist.org/packages/zlodey/laravel-sendpulse-api)
 [![Version](https://img.shields.io/packagist/v/zlodey/laravel-sendpulse-api.svg)](https://packagist.org/packages/zlodey/laravel-sendpulse-api)
 
-# Laravel - Sendpulse Service Provider
+# Laravel - SendPulse Service Provider
 
 **Install With Composer**:
 ```sh
@@ -40,14 +40,14 @@ For laravel < 5.5 you need to register service provider
          * Application Service Providers...
          */
         ...
-        'Zlodey\Sendpulse\SendpulseServiceProvider'
+        'Zlodey\SendPulse\SendPulseServiceProvider'
     ],
 ```
 
 **Usage**
 ``` php
-app('Sendpulse')->listAddressBooks();
-app('Sendpulse')->listSenders();
+app('SendPulse')->listAddressBooks();
+app('SendPulse')->listSenders();
 ```
 And so on..
 

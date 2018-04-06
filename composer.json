@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Zlodey\\Sendpulse\\": "src/"
+            "Zlodey\\SendPulse\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\Zlodey\\Sendpulse\\SendpulseServiceProvider"
+                "\\Zlodey\\SendPulse\\SendPulseServiceProvider"
             ]
         }
     }
