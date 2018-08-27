@@ -1,4 +1,3 @@
-[![Downloads](https://img.shields.io/packagist/dt/zlodey/laravel-sendpulse-api.svg)](https://packagist.org/packages/zlodey/laravel-sendpulse-api)
 [![Version](https://img.shields.io/packagist/v/zlodey/laravel-sendpulse-api.svg)](https://packagist.org/packages/zlodey/laravel-sendpulse-api)
 
 # Laravel - SendPulse Service Provider
