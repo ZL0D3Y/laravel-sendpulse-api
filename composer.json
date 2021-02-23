@@ -24,5 +24,12 @@
         "psr-4": {
             "Zlodey\\SendPulse\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Zlodey\\SendPulse\\SendPulseServiceProvider"
+            ]
+        }
     }
 }
